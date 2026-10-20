@@ -94,4 +94,8 @@
     .home{
         height: calc(100vh - 58px);
     }
+
+    .navbar ul.links.active{
+        top: 57px;
+    }
 }

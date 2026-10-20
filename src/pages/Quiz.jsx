@@ -93,13 +93,13 @@ function Quiz() {
 
   return (
     <div className="quiz flex flex-col items-center bg-gray-100 mx-auto pt-10">
-      <div className="progress w-[70%] flex flex-col items-start gap-1  mb-4">
+      <div className="progress w-[70%] flex flex-col items-start gap-1  mb-4 max-[1024px]:w-[95%]">
         <p>You answered {answeredCount} out of {totalQuestions} questions</p>
         <Progressbar completed={answeredCount} total={totalQuestions} />
       </div>
 
-      <div className="quistions w-[70%] bg-white">
-        <ul className="list-none border border-gray-300 rounded-md p-4">
+      <div className="quistions w-[70%] bg-white max-[1024px]:w-[95%]">
+        <ul className="list-none border border-gray-300 rounded-md p-4 max-[764px]:p-2">
           {currentQuestions.map((question, index) => (
             <li key={startIndex + index} className="mb-4">
               <Quistion question={question.en} selectedOption={answers[startIndex + index] ?? null} onOptionSelect={(value) => handleOptionSelect(startIndex + index, value)} />

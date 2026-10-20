@@ -22,9 +22,9 @@ function Navbar() {
 
           { 
             isLinksOpen && (
-              <li className="links_auth_buttons flex items-center gap-4 text-2xl">
-                <Link to="/register" className="register-button p-2 bg-gray-300 rounded-lg transition-all hover:scale-105 hover:-translate-y-0.5 text-nowrap">Sign up</Link>
-                <Link to="/login" className="login-button  p-2 text-gray-700 bg-amber-300 rounded-lg transition-all hover:scale-105 hover:-translate-y-0.5 text-nowrap">Log in</Link>
+              <li className="flex items-center gap-4 text-2xl w-[80%] justify-evenly">
+                <Link to="/register" className="register-button font-bold p-2 bg-gray-300 rounded-lg transition-all hover:scale-105 hover:-translate-y-0.5 text-nowrap">Sign up</Link>
+                <Link to="/login" className="login-button font-bold  p-2 text-gray-700 bg-amber-300 rounded-lg transition-all hover:scale-105 hover:-translate-y-0.5 text-nowrap">Log in</Link>
               </li>
             )
           }

@@ -13,13 +13,13 @@ const options = [
 function Quistion({ question, selectedOption, onOptionSelect }) {
 
   return (
-    <div className="quistion p-4 border border-gray-300 rounded-md">
+    <div className="quistion p-4 border border-gray-300 rounded-md max-[764px]:p-2">
       <p className="font-bold mb-2">{question}</p>
-      <ul className="w-[80%] flex items-center justify-between">
+      <ul className="w-[80%] flex items-center justify-between gap-2 max-[1024px]:w-full max-[764px]:flex-wrap max-[764px]:text-sm">
         {options.map((option, index) => (
           <li key={index}>
             <button
-              className={`p-2 rounded-md cursor-pointer border border-transparent transition-all hover:border-blue-500 ${
+              className={`p-2 rounded-md cursor-pointer border border-transparent transition-all hover:border-blue-500 max-[764px]:p-1] ${
                 selectedOption === option.value
                   ? 'bg-blue-500 text-white'
                   : 'bg-gray-200 text-gray-700'
