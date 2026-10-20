@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+.home{
+    height: calc(100vh - 81px);
+    width: 100%;
+    overflow: hidden;
+    background-image: url("./assets/main\ background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.nav_togeler{
+    display: none;
+}
+
+.links_auth_buttons{
+    display: none;
+}
+
+.description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 1090px) {
+    .navbar{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .navbar .links{
+        order: 1;
+        margin: auto;
+    }
+
+    .navbar .auth_buttons{
+        margin: 0 30px;
+    }
+
+    .home{
+        height: calc(100vh - 124px);
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar .auth_buttons{
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .nav_togeler{
+        display: block;
+    }
+
+    .navbar .links{
+        position: absolute;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        transition: all 0.3s ease-in-out;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .navbar .links.active{
+        top: 81px;
+    }
+
+    .links_auth_buttons{
+        display: block;
+    }
+
+    .navbar .auth_buttons{
+        display: none;
+    }
+
+    .home{
+        height: calc(100vh - 82px);
+    }
+}
+
+@media (max-width: 479px) {
+    .home{
+        height: calc(100vh - 58px);
+    }
+}
