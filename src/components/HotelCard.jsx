@@ -7,7 +7,7 @@ function HotelCard({ hotel }) {
   return (
     <div className='hotel_card rounded-2xl overflow-hidden shadow-lg'>
         <div className="hotel_card_img h-50 overflow-hidden flex items-center justify-center">
-            <img src={'./src/assets/images/'+hotel.images[0]} alt={hotel.name} className='w-full min-h-full hover:scale-105 transition-transform duration-300' />
+            <img src={hotel.images[0]} alt={hotel.name} className='w-full min-h-full hover:scale-105 transition-transform duration-300' />
         </div>
 
         <div className="content p-3 flex flex-col gap-3">
