@@ -1,3 +1,38 @@
+import TROPIMG1 from "../images/pool of hotel 1.jpg";
+import TROPIMG2 from "../images/room hotel 1.jpg";
+import TROPIMG3 from "../images/bathroom2 hotel1.jpg";
+import TROPIMG4 from "../images/double bed hotel 1.jpg";
+import TROPIMG5 from "../images/dining room hotel 1.jpg";
+
+import PREMIERIMG1 from "../images/فندق2.jpg";
+import PREMIERIMG2 from "../images/bofe hotel2.jpg";
+import PREMIERIMG3 from "../images/bath room hotel2.jpg";
+import PREMIERIMG4 from "../images/room hotel2.jpg";
+
+import OLDIMG1 from "../images/view hotel3.jpg";
+import OLDIMG2 from "../images/garden hotel 3.jpg";
+import OLDIMG3 from "../images/bathroom hotel 3.jpg";
+import OLDIMG4 from "../images/balcony hotel 3.jpg";
+
+import STEIGENBERGERIMG1 from "../images/Steigenberger Cecil Hotel.jpg";
+import STEIGENBERGERIMG2 from "../images/balcony hotel 4.jpg";
+import STEIGENBERGERIMG3 from "../images/out of hotel 4.jpg";
+import STEIGENBERGERIMG4 from "../images/resiption hotel4.jpg";
+import STEIGENBERGERIMG5 from "../images/room hotel 4.jpg";
+
+import HILTONIMG1 from "../images/Hilton Marsa Alam Nubian Resort.jpg";
+import HILTONIMG2 from "../images/pool of hotel 5.jpg";
+import HILTONIMG3 from "../images/room of hotel 5.jpg";
+import HILTONIMG4 from "../images/bath of hotel 5.jpg";
+
+import MENAIMG1 from "../images/Mena House Hotel.jpg";
+import MENAIMG2 from "../images/pool of hotel 6.jpg";
+import MENAIMG3 from "../images/bath of hotel 6.jpg";
+import MENAIMG4 from "../images/room of hotel 6.jpg";
+
+
+
+
 const hotelsData = [
   {
     name: "Tropitel Sahl Hasheesh Resort",
@@ -6,7 +41,7 @@ const hotelsData = [
     facilities: "Private beach, multiple pools, spa, restaurants, Wi-Fi, kids activities",
     price: "$100 - $180+ per night (varies with season)",
     rating: "4.7/5",
-    images: ["pool of hotel 1.jpg","room hotel 1.jpg","bathroom2 hotel1.jpg","double bed hotel 1.jpg","dining room hotel 1.jpg"], // add real images
+    images: [TROPIMG1, TROPIMG2, TROPIMG3, TROPIMG4, TROPIMG5], // add real images
     mapLink: "https://www.google.com/travel/hotels/entity/ChkIn-SNtamhmq2-ARoML2cvMWhtM2cxX3M5EAE?g2lb="
   },
   {
@@ -16,7 +51,7 @@ const hotelsData = [
     facilities: "Adults only, spa, pools, beachfront, gym, dining",
     price: "$150 - $280+ per night (varies with season)",
     rating: "4.8/5",
-    images: ["فندق2.jpg","bofe hotel2.jpg","bath room hotel2.jpg","room hotel2.jpg"],
+    images: [PREMIERIMG1, PREMIERIMG2, PREMIERIMG3, PREMIERIMG4],
     mapLink: "https://maps.google.com/?q=Premier+Le+Reve+Hotel+%26+Spa+Sahl+Hasheesh"
   },
   {
@@ -26,7 +61,7 @@ const hotelsData = [
     facilities: "Nile views, historic architecture, fine dining, spa, pool",
     price: "$220 - $380+ per night (varies with season)",
     rating: "4.6/5",
-    images: ["view hotel3.jpg","garden hotel 3.jpg","bathroom hotel 3.jpg","balcony hotel 3.jpg"],
+    images: [OLDIMG1, OLDIMG2, OLDIMG3, OLDIMG4],
     mapLink: "https://maps.google.com/?q=Sofitel+Legend+Old+Cataract+Aswan"
   },
   {
@@ -36,7 +71,7 @@ const hotelsData = [
     facilities: "Sea views, historic style, dining, rooftop",
     price: "$120 - $240+ per night",
     rating: "4.5/5",
-    images: ["Steigenberger Cecil Hotel.jpg","balcony hotel 4.jpg","out of hotel 4.jpg","resiption hotel4.jpg","room hotel 4.jpg"],
+    images: [STEIGENBERGERIMG1, STEIGENBERGERIMG2, STEIGENBERGERIMG3, STEIGENBERGERIMG4, STEIGENBERGERIMG5],
     mapLink: "https://maps.google.com/?q=Steigenberger+Cecil+Hotel+Alexandria"
   },
   {
@@ -46,7 +81,7 @@ const hotelsData = [
     facilities: "Coral reef snorkeling, private beach, pools, gym, bars",
     price: "$180 - $350+ per night",
     rating: "4.7/5",
-    images: ["Hilton Marsa Alam Nubian Resort.jpg","pool of hotel 5.jpg","room of hotel 5.jpg","bath of hotel 5.jpg"],
+    images: [HILTONIMG1, HILTONIMG2, HILTONIMG3, HILTONIMG4],
     mapLink: "https://maps.google.com/?q=Hilton+Marsa+Alam+Nubian+Resort+Marsa+Alam"
   },
   {
@@ -56,7 +91,7 @@ const hotelsData = [
     facilities: "Pyramid views, gardens, spa, dining",
     price: "$200 - $400+ per night",
     rating: "4.5/5",
-    images: ["Mena House Hotel.jpg","pool of hotel 6.jpg","bath of hotel 6.jpg","room of hotel 6.jpg"],
+    images: [MENAIMG1, MENAIMG2, MENAIMG3, MENAIMG4],
     mapLink: "https://maps.google.com/?q=Mena+House+Hotel+Giza"
   }
 ];

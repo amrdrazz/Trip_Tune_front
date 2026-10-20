@@ -1,3 +1,22 @@
+import GEMIMG1 from "../images/المتحف.jpg";
+import GEMIMG2 from "../images/ال.jpeg";
+import GEMIMG3 from "../images/المتحف3.webp";
+import GEMIMG4 from "../images/المتحف 4.jpeg";
+
+import KHEIMG1 from "../images/خان الخليلي 4.jpg";
+import KHEIMG2 from "../images/خان الخليلي.jpg";
+import KHEIMG3 from "../images/خان الخليلي 3.jpg";
+import KHEIMG4 from "../images/خان الخليلي 2.jpg";
+
+import ARTIMG1 from "../images/art center.jpg";
+import ARTIMG2 from "../images/Fayoum Art Center Workshops 2.jpg";
+import ARTIMG3 from "../images/Fayoum Art Center Workshops 3.jpg";
+
+import THERIMG1 from "../images/oases.jpg";
+import THERIMG2 from "../images/oases2.jpg";
+import THERIMG3 from "../images/sand.webp";
+
+
 const destinationsData = [
   { // Grand Egyptian Museum
     name: "Grand Egyptian Museum",
@@ -16,10 +35,10 @@ const destinationsData = [
     map: "https://www.google.com/maps?q=Grand+Egyptian+Museum",
     video: "https://www.youtube.com/embed/s735gqF_cfc?si=1G-2mMRzlpTD7ch8",
     images: [
-      "./src/assets/images/المتحف.jpg",
-      "./src/assets/images/ال.jpeg",
-      "./src/assets/images/المتحف3.webp",
-      "./src/assets/images/المتحف 4.jpeg"
+      GEMIMG1,
+      GEMIMG2,
+      GEMIMG3,
+      GEMIMG4
     ]
   },
   { // Khan El-Khalili
@@ -39,10 +58,10 @@ const destinationsData = [
     map: "https://www.google.com/maps?q=Khan+El-Khalili+Cairo",
     video: "https://www.youtube.com/embed/mCyxJjsZ620",
     images: [
-      "./src/assets/images/خان الخليلي 4.jpg",
-      "./src/assets/images/خان الخليلي.jpg",
-      "./src/assets/images/خان الخليلي 3.jpg",
-      "./src/assets/images/خان الخليلي 2.jpg"
+      KHEIMG1,
+      KHEIMG2,
+      KHEIMG3,
+      KHEIMG4
     ]
   },
   { // Fayoum Art Center Workshops
@@ -62,9 +81,9 @@ const destinationsData = [
     map: "https://www.google.com/maps/search/?api=1&query=Tunis+Village+Fayoum+Egypt",
     video: "https://www.youtube.com/embed/Xo3AjtFiuRA?si=C6PJ6hwnDF9D8GC3",
     images: [
-      "./src/assets/images/art center.jpg",
-      "./src/assets/images/Fayoum Art Center Workshops 2.jpg",
-      "./src/assets/images/Fayoum Art Center Workshops 3.jpg"
+      ARTIMG1,
+      ARTIMG2,
+      ARTIMG3
     ]
   },
   { // Egyptian Therapeutic Baths
@@ -84,9 +103,9 @@ const destinationsData = [
     map: "https://www.google.com/maps/search/?api=1&query=Siwa+Hot+Springs+Egypt",
     video: "https://www.youtube.com/embed/Z2DkJlu0t9M",
     images: [
-      "./src/assets/images/oases.jpg",
-      "./src/assets/images/oases2.jpg",
-      "./src/assets/images/sand.webp"
+      THERIMG1,
+      THERIMG2,
+      THERIMG3
     ]
   }
 ];
